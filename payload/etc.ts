@@ -5,6 +5,11 @@ const etc: IEtc.Payload = {
 
   list: [
     {
+      title: 'SQL 개발자',
+      subTitle: '',
+      startedAt: '2024-12',
+    },
+    {
       title: 'TOEIC 어학시험',
       subTitle: '905점 취득',
 

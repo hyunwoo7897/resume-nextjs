@@ -21,9 +21,7 @@ const education: IEducation.Payload = {
       where: '졸업',
       descriptions: [
         {
-          content:
-            '리듬게임에서 한정된 곡과 레벨만 있다는 한계점을 해결하기 위해 노래에 맞는 레벨을 생성하는 AI 모델 ',
-          weight: 'MEDIUM',
+          content: '3년 개근 졸업',
         },
       ],
     },

@@ -4,27 +4,9 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: '코미케 동선 생성 프로그램 (PM)',
-      startedAt: '2024-10',
-      where: 'GIST EC4204(데이터 베이스 시스템) 팀 프로젝트',
-      descriptions: [
-        {
-          content:
-            '코미케 행사장에 사람들이 많이 참가하고 이에 따라 참가자의 만족도와 안전상의 문제가 생김. 전체 시스템을 데이터 베이스화 시켜 다양한 기능 제공 및 문제점 해결',
-          weight: 'MEDIUM',
-        },
-        {
-          content: '진행 상황 : 기초적인 RDBMS 구조 설계 완료',
-        },
-        {
-          content: 'vector DB, elastic search 등 추가적인 기능들을 추가할 수 있도록 만들 예정',
-        },
-      ],
-    },
-    {
       title: '리듬게임 AI 기반 레벨 생성 모델(PCG) 프로젝트 (PM)',
       startedAt: '2024-10',
-      where: 'GIST EC3105(게임 인공지능) 개인 프로젝트 ',
+      where: 'GIST CT4303(게임 인공지능) 개인 프로젝트 ',
       descriptions: [
         {
           content:
@@ -35,11 +17,33 @@ const project: IProject.Payload = {
           content: '진행 상황 : 데이터 수집 및 분석 완료 단계',
         },
         {
-          content:
-            '노래 비트에 맞는 랜덤 모델을 baseline으로 잡고 rule based 모델, AI 모델을 학습/검증할 예정',
+          content: '노래 비트에 맞는 랜덤 모델을 baseline으로 잡고 rule based 모델 생성 완료',
+        },
+        {
+          content: '선행 연구에서 진행한 C-LSTM으로 학습 후 다른 방법을 구상상',
         },
       ],
     },
+    {
+      title: '행사 동선 생성 프로그램 (PM)',
+      startedAt: '2024-10',
+      endedAt: '2024-12',
+      where: 'GIST EC4204(데이터 베이스 시스템) 팀 프로젝트',
+      descriptions: [
+        {
+          content:
+            '행사에 사람들이 많이 참가하고 이에 따라 참가자의 만족도와 안전상의 문제가 생김. 전체 시스템을 데이터 베이스화 시켜 다양한 기능 제공 및 문제점 해결',
+          weight: 'MEDIUM',
+        },
+        {
+          content: 'RDBMS, MongoDB로 DB 시스템을 구축',
+        },
+        {
+          content: '행사의 예상 혼잡도, 개인별 최적 경로 등의 기능을 제공공',
+        },
+      ],
+    },
+
     {
       title: 'LLM을 이용한 뉴스 제목 생성 시스템 (PM)',
       startedAt: '2024-05',
@@ -73,15 +77,15 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '간소한 데이터 베이스 시스템을 구축하고, 학생간의 유사도를 원핫 인코딩, 그래프 등 알고리즘으로 찾아냄',
+            '간소한 데이터 베이스 시스템을 구축하고, 학생간의 유사도를 그래프 등 알고리즘으로 찾아냄',
         },
       ],
     },
 
     {
-      title: '자동차 간의 통신을 기반으로 한 자동주차 시스템 (PM)',
-      startedAt: '2019-08',
-      endedAt: '2019-12',
+      title: '로봇 통신을 기반으로 한 자동주차 시스템 (PM)',
+      startedAt: '2021-08',
+      endedAt: '2021-12',
       where: '광주과학고등학교 개인 졸업 연구',
       descriptions: [
         {
@@ -95,15 +99,15 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '여러 대의 로봇이 주차장에 있을 때 서로의 위치를 파악하고 최적의 경로로 최단시간으로 모든 자동차들이 주차할 수 있는 시스템',
+            '여러 대의 로봇이 주차장에 있을 때 서로의 위치를 컴퓨터에서 파악하고 최적의 경로로 최단시간으로 모든 자동차들이 주차할 수 있는 시스템',
         },
       ],
     },
 
     {
       title: '얼굴 인식 이모지 생성 프로그램 (PM)',
-      startedAt: '2019-05',
-      endedAt: '2019-06',
+      startedAt: '2021-05',
+      endedAt: '2021-06',
       where: '광주과학고등학교 팀 프로젝트',
       descriptions: [
         {
