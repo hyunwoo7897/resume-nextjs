@@ -62,7 +62,7 @@ const database: ISkill.Skill = {
     },
     {
       title: 'MongoDB',
-      level: 1,
+      level: 2,
     },
   ],
 };
