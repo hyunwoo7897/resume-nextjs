@@ -20,7 +20,7 @@ const project: IProject.Payload = {
           content: '노래 비트에 맞는 랜덤 모델을 baseline으로 잡고 rule based 모델 생성 완료',
         },
         {
-          content: '선행 연구에서 진행한 C-LSTM으로 학습 후 다른 방법을 구상상',
+          content: '선행 연구에서 진행한 C-LSTM으로 학습 후 다른 방법을 구상',
         },
       ],
     },
@@ -56,8 +56,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
         },
         {
-          content:
-            'ChatGPT prompt engineering으로 정리된 기사 추출, Streamlit, FastAPI로 프론트/백 앤드 시스템 구축',
+          content: 'ChatGPT로 정리된 기사 추출, Streamlit, FastAPI로 프론트/백 앤드 시스템 구축',
         },
         {
           content: 'Docker, Kubernetes 등으로 프로젝트 배포/관리',
@@ -83,7 +82,7 @@ const project: IProject.Payload = {
     },
 
     {
-      title: '로봇 통신을 기반으로 한 자동주차 시스템 (PM)',
+      title: '피지컬 컴퓨팅으로 구현하는 자동주차 시스템 (PM)',
       startedAt: '2021-08',
       endedAt: '2021-12',
       where: '광주과학고등학교 개인 졸업 연구',
@@ -95,7 +94,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'Lego EV3와 센서를 이용한 피지컬 컴퓨팅으로 간단한 자율주행, 자율주차 시스템을 구축하고 로봇간의 통신을 통해 서로의 위치를 파악',
+            'Lego EV3와 센서를 이용한 간단한 자율주행, 자율주차 시스템을 구축하고 로봇간의 통신을 통해 서로의 위치를 파악',
         },
         {
           content:
