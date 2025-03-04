@@ -4,9 +4,53 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'E-스포츠 자동 중계 AI 프로젝트',
+      startedAt: '2025-01',
+      where: 'GIST CI-LAB E-스포츠 팀 국가 과제(문체부 주관) 프로젝트 ',
+      descriptions: [
+        {
+          content:
+            'E-스포츠의 인기와 규모가 늘어남에 따라 자동 관전, 해설 시스템의 필요성으로 부터 파생한 프로젝트',
+          weight: 'MEDIUM',
+        },
+        {
+          content: '컴퓨터 비전, Yolo 모델을 통해 input/output 데이터 생성',
+        },
+        {
+          content: '시계열 데이터가 적합한 CLSTM을 사용했지만 결과가 좋지 않았음',
+        },
+        {
+          content: 'CLSTM과 U-net 모델을 합성한 모델을 재구성해 학습 중',
+        },
+      ],
+    },
+    {
+      title: '서바이벌 게임에서 최종 등수 예측 모델 (PM)',
+      startedAt: '2025-02',
+      where: 'GIST CI-LAB 개인 프로젝트 ',
+      descriptions: [
+        {
+          content:
+            '배틀그라운드 같은 게임의 대회에서 중간 중간 각 팀의 재정 상태를 보여주고 최종 등수를 예측하는 프로그램',
+          weight: 'MEDIUM',
+        },
+        {
+          content: '게임사에서 제공하는 API를 통해 최상위권 티어 게임들의 분당 재화량 데이터 추출',
+        },
+        {
+          content:
+            '처음에 survival-analysis, clustering 등 머신러닝 모델을 사용했지만 30%로 성능이 좋지 않음',
+        },
+        {
+          content:
+            'LSTM 모델로 학습한 결과 예측 확률 75%까지 상승, 하지만 데이터와 정보의 부족으로 모델 발전이 힘들어짐',
+        },
+      ],
+    },
+    {
       title: '리듬게임 AI 기반 레벨 생성 모델(PCG) 프로젝트 (PM)',
-      startedAt: '2024-10',
-      where: 'GIST CT4303(게임 인공지능) 개인 프로젝트 ',
+      startedAt: '2024-11',
+      where: 'GIST CT4303(게임 인공지능) 개인 프로젝트 + GIST CI-LAB 개인 프로젝트',
       descriptions: [
         {
           content:
@@ -14,13 +58,14 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
         },
         {
-          content: '진행 상황 : 데이터 수집 및 분석 완료 단계',
+          content:
+            '기존 게임에서 레벨 데이터를 모으고 노래의 input 데이터 형태를 STFT로 변환하여 모델학습이 가능하도록 설정',
         },
         {
-          content: '노래 비트에 맞는 랜덤 모델을 baseline으로 잡고 rule based 모델 생성 완료',
+          content: '노래 비트에 맞는 랜덤 모델을 baseline으로 잡고 rule-based 모델 생성 완료',
         },
         {
-          content: '선행 연구에서 진행한 C-LSTM으로 학습 후 다른 방법을 구상',
+          content: 'C-LSTM으로 학습 후 다른 방법을 구상',
         },
       ],
     },
@@ -39,7 +84,7 @@ const project: IProject.Payload = {
           content: 'RDBMS, MongoDB로 DB 시스템을 구축',
         },
         {
-          content: '행사의 예상 혼잡도, 개인별 최적 경로 등의 기능을 제공공',
+          content: '행사의 예상 혼잡도, 개인별 최적 경로 등의 기능을 제공',
         },
       ],
     },
@@ -56,10 +101,29 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
         },
         {
-          content: 'ChatGPT로 정리된 기사 추출, Streamlit, FastAPI로 프론트/백 앤드 시스템 구축',
+          content:
+            'Prompt Engineering 후 ChatGPT로 정리된 기사 추출, Streamlit, FastAPI로 프론트/백 앤드 시스템 구축',
+        },
+      ],
+    },
+    {
+      title: 'SMT solver 최적화 프로젝트',
+      startedAt: '2024-03',
+      endedAt: '2024-06',
+      where: 'GIST 프로그램 분석 연구실',
+      descriptions: [
+        {
+          content:
+            '정적 분석의 일종인 Symbolic Execution의 성능을 증진 시키기 위해 핵심이 되는 SMT solver의 효율성을 높이는 프로젝트',
+          weight: 'MEDIUM',
         },
         {
-          content: 'Docker, Kubernetes 등으로 프로젝트 배포/관리',
+          content:
+            'SMT solver를 계속 다양한 코드에 대해 실행 시켜 그 과정에서 나오는 데이터를 수집',
+        },
+        {
+          content:
+            '자주 나오는 수식, semantic적으로 같고 간단한 수식으로 변경이 가능한 수식들을 찾아 패턴 매칭을 통해 초기의 복잡한 수식을 최적화',
         },
       ],
     },
@@ -76,7 +140,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '간소한 데이터 베이스 시스템을 구축하고, 학생간의 유사도를 그래프 등 알고리즘으로 찾아냄',
+            'RDBMS의 DML을 모방하여 간소한 데이터 베이스 시스템을 구축하고, 학생간의 유사도를 그래프 등 알고리즘으로 찾아냄',
         },
       ],
     },

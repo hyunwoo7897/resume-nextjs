@@ -23,10 +23,6 @@ const programmingLanguages: ISkill.Skill = {
       title: 'Ocmal',
       level: 2,
     },
-    {
-      title: 'Java',
-      level: 1,
-    },
   ],
 };
 /*
@@ -66,7 +62,7 @@ const database: ISkill.Skill = {
     },
   ],
 };
-
+/*
 const devops: ISkill.Skill = {
   category: 'DevOps',
   items: [
@@ -80,6 +76,7 @@ const devops: ISkill.Skill = {
     },
   ],
 };
+*/
 /*
 const automation: ISkill.Skill = {
   category: 'Automation',
@@ -174,7 +171,7 @@ const skill: ISkill.Payload = {
     programmingLanguages,
     // kernelDevelopment,
     database,
-    devops,
+    // devops,
     // automation,
     // networkSecurity,
     // misc,

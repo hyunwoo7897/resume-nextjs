@@ -10,8 +10,11 @@ const experience: IExperience.Payload = {
         {
           title: '학부생 인턴',
           startedAt: '2025-01',
-          descriptions: ['E-스포츠 연구 팀에 참여'],
-          skillKeywords: ['reinforcement learning'],
+          descriptions: [
+            'E-스포츠 연구 팀에 참여',
+            'E-스포츠 자동 관전 AI 연구중 (문체부 주관 국가 과제) ',
+          ],
+          skillKeywords: ['Deep Learning', 'Computer Vision'],
         },
       ],
     },
@@ -36,7 +39,7 @@ const experience: IExperience.Payload = {
 
           descriptions: ['CS 161 Computer Security 수강', 'STAT 155 Game Theory 수강'],
           endedAt: '2024-08',
-          skillKeywords: ['Assembly', 'C', 'HTML', 'SQL'],
+          skillKeywords: ['Assembly', 'C', 'SQL'],
         },
       ],
     },
@@ -62,6 +65,7 @@ const experience: IExperience.Payload = {
           descriptions: [
             '랩미팅, 논문 세미나 참여',
             '프로그램 정적 분석 학습 및 연구 참여',
+            'Symbolic Execution을 위한 SMT solver 효율성 증진 관련 연구 진행',
             '2024 겨울 SIGPL 참석',
           ],
           skillKeywords: ['Static Analysis', 'Ocaml'],

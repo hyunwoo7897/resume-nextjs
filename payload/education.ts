@@ -6,7 +6,7 @@ const education: IEducation.Payload = {
     {
       title: '광주과학기술원 (GIST)',
       startedAt: '2022-03',
-      where: '전기전자컴퓨터 공학부 재학중(3학년)',
+      where: '전기전자컴퓨터 공학부 재학중(4학년), AI / 문화기술 부전공',
       descriptions: [
         {
           content:
