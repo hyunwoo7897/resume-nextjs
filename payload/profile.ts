@@ -13,12 +13,12 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'hyunwoo_lee_ug@gm.gist.ac.kr',
-      link: 'mailto:hyunwoo_lee_ug@gm.gist.ac.kr',
+      title: 'hyunwoo7897@kaist.ac.kr',
+      link: 'mailto:hyunwoo7897@kaist.ac.kr',
       icon: faEnvelope,
     },
     {
-      title: '010-3465-0582',
+      title: '010-XXXX-XXXX',
       icon: faPhone,
       badge: true,
     },

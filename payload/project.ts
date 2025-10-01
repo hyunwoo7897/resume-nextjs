@@ -4,6 +4,26 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'Gaussian Splatting을 이용한 Realtime Path Tracing Denoising',
+      startedAt: '2025-09',
+      where: 'GIST 학술논문연구 (졸업 논문)',
+      descriptions: [
+        {
+          content: 'Realtime Ray Tracing의 높은 computational cost를 줄이기 위한 Denoising 연구',
+          weight: 'MEDIUM',
+        },
+        {
+          content: '컴퓨터 그래픽스, 컴퓨터 비전',
+        },
+        {
+          content: '3D Scene에 대한 high spp 이미지를 여러 각도에서 생성',
+        },
+        {
+          content: '이미지들을 바탕으로 Gaussian Splatting 모델을 학습 & 이미지 생성 예정',
+        },
+      ],
+    },
+    {
       title: 'E-스포츠 자동 중계 AI 프로젝트',
       startedAt: '2025-01',
       where: 'GIST CI-LAB E-스포츠 팀 국가 과제(문체부 주관) 프로젝트 ',
@@ -20,7 +40,10 @@ const project: IProject.Payload = {
           content: '시계열 데이터가 적합한 CLSTM을 사용했지만 결과가 좋지 않았음',
         },
         {
-          content: 'CLSTM과 U-net 모델을 합성한 모델을 재구성해 학습 중',
+          content: 'CLSTM과 U-net 모델을 합성한 모델을 재구성해 학습',
+        },
+        {
+          content: 'IEEE COG 2025 short paper 게재',
         },
       ],
     },

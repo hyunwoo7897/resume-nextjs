@@ -5,6 +5,45 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: true,
   list: [
     {
+      title: '프로그래밍 언어와 컴파일러 조교',
+      positions: [
+        {
+          title: 'GIST EC3204 프로그래밍 언어와 컴파일러 수업 조교',
+          startedAt: '2025-09',
+          descriptions: ['Lexer 과제 제작', '프로젝트 과제 아이디어 구상', '과제 채점 및 Q&A'],
+          skillKeywords: ['OCaml', 'Python', 'Yacc'],
+        },
+      ],
+    },
+    {
+      title: 'GIST CG-Lab 인턴',
+      positions: [
+        {
+          title: '학부생 인턴',
+          startedAt: '2025-06',
+          endedAt: '2024-08',
+          descriptions: [
+            '물리 기반 렌더링 학습',
+            'Nori project, Multiple Importance Sampling 구현',
+            'Gaussian Splatting을 이용한 denoising 아이디어 구상',
+          ],
+          skillKeywords: ['Computer Graphics', 'PBR'],
+        },
+      ],
+    },
+    {
+      title: '컴퓨터 프로그래밍 조교',
+      positions: [
+        {
+          title: 'GIST GS1201 컴퓨터 프로그래밍 수업 조교',
+          startedAt: '2025-03',
+          endedAt: '2025-06',
+          descriptions: ['연습반 관리 및 지도', '과제 채점 및 Q&A'],
+          skillKeywords: ['C', 'Linux'],
+        },
+      ],
+    },
+    {
       title: 'GIST CI-Lab 인턴',
       positions: [
         {
@@ -13,6 +52,7 @@ const experience: IExperience.Payload = {
           descriptions: [
             'E-스포츠 연구 팀에 참여',
             'E-스포츠 자동 관전 AI 연구중 (문체부 주관 국가 과제) ',
+            'IEEE COG 2025 short paper 게재',
           ],
           skillKeywords: ['Deep Learning', 'Computer Vision'],
         },
