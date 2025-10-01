@@ -49,6 +49,7 @@ const experience: IExperience.Payload = {
         {
           title: '학부생 인턴',
           startedAt: '2025-01',
+          endedAt: '2025-05',
           descriptions: [
             'E-스포츠 연구 팀에 참여',
             'E-스포츠 자동 관전 AI 연구중 (문체부 주관 국가 과제) ',
