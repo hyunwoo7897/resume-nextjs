@@ -50,6 +50,7 @@ const project: IProject.Payload = {
     {
       title: '서바이벌 게임에서 최종 등수 예측 모델 (PM)',
       startedAt: '2025-02',
+      endedAt: '2025-03',
       where: 'GIST CI-LAB 개인 프로젝트 ',
       descriptions: [
         {
@@ -73,6 +74,7 @@ const project: IProject.Payload = {
     {
       title: '리듬게임 AI 기반 레벨 생성 모델(PCG) 프로젝트 (PM)',
       startedAt: '2024-11',
+      endedAt: '2025-01',
       where: 'GIST CT4303(게임 인공지능) 개인 프로젝트 + GIST CI-LAB 개인 프로젝트',
       descriptions: [
         {

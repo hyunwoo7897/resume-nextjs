@@ -21,7 +21,7 @@ const experience: IExperience.Payload = {
         {
           title: '학부생 인턴',
           startedAt: '2025-06',
-          endedAt: '2024-08',
+          endedAt: '2025-08',
           descriptions: [
             '물리 기반 렌더링 학습',
             'Nori project, Multiple Importance Sampling 구현',
